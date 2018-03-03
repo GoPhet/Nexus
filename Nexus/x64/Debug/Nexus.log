@@ -1,0 +1,12 @@
+﻿  Nexus.cpp
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(175): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(182): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(195): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(217): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(224): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(239): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(286): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\georg\onedrive\projects\programming workspace\workspace(c)\nexus\source\nexus.cpp(287): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Nexus.vcxproj -> C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Lib\Debug\x64\Nexus.lib

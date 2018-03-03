@@ -1,0 +1,336 @@
+﻿  Nexus.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1010): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1010): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(967): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(404): note: see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Nexus::Synaspe>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(449): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe,
+              _Alloc=std::allocator<Nexus::Synaspe>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(659): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe,
+              _Alloc=std::allocator<Nexus::Synaspe>
+          ]
+  C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(27): note: see reference to class template instantiation 'std::vector<Nexus::Synaspe,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1011): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1011): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1013): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1013): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1014): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1014): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1028): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1028): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1029): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1029): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1033): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1033): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1034): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1034): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1048): error C3699: '*const ': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1048): note: compiler replacing '*const ' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1054): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1054): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1060): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1060): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(905): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(905): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(969): note: see reference to class template instantiation 'std::_Default_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Nexus::Synaspe>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(906): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(906): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(982): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(982): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(407): note: see reference to variable template 'const bool _Is_simple_alloc_v<std::allocator<Nexus::Synaspe> >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(983): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(983): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(414): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(414): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(415): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(415): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(993): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(993): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(455): note: see reference to class template instantiation 'std::_Simple_types<_Ty>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(994): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(994): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(429): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(429): note: compiler replacing '&' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xutility(303): note: see reference to class template instantiation 'std::_Vector_val<std::_Simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(638): note: see reference to class template instantiation 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(430): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(430): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(439): error C3265: cannot declare a managed '_Myfirst' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(439): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(440): error C3265: cannot declare a managed '_Mylast' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(440): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(441): error C3265: cannot declare a managed '_Myend' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(441): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(673): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(673): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(674): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(674): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(706): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(706): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(978): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(978): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(983): error C3699: '&&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(983): note: compiler replacing '&&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1061): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1061): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1066): error C3699: '&&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1066): note: compiler replacing '&&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1071): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1071): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1320): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1320): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1534): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1534): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1668): error C3699: '*': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1668): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1673): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1673): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1791): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1791): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1805): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1805): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1819): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1819): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1829): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1829): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1839): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1839): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1853): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1853): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1867): error C3699: '&': cannot use this indirection on type 'Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1867): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1881): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1881): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1905): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1905): note: compiler replacing '&' with '^' to continue parsing
+C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(28): error C3222: 'index': cannot declare default arguments for member functions of a managed type or generic functions
+C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(29): error C3222: 'weight': cannot declare default arguments for member functions of a managed type or generic functions
+C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(27): error C4368: cannot define 'connections' as a member of managed 'Nexus::Neuron': mixed types are not supported
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(21): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(21): note: compiler replacing '&' with '^' to continue parsing
+  C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(31): note: see reference to class template instantiation 'std::initializer_list<_Ty>' being compiled
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(22): error C3699: '&': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(22): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(25): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(25): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(26): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(26): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(33): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(33): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(40): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(40): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(45): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(45): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(55): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(55): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(55): error C3265: cannot declare a managed '_First' in an unmanaged 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(55): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(56): error C3699: '*': cannot use this indirection on type 'const Nexus::Synaspe'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(56): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(56): error C3265: cannot declare a managed '_Last' in an unmanaged 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Nexus::Synaspe
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\initializer_list(56): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(36): error C3816: 'struct Nexus::Profile' was previously declared or defined with a different managed modifier
+  C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(35): note: see declaration of 'Nexus::Profile'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1010): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1010): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(967): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(404): note: see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Nexus::Neuron>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(449): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron,
+              _Alloc=std::allocator<Nexus::Neuron>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(659): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron,
+              _Alloc=std::allocator<Nexus::Neuron>
+          ]
+  C:\Users\georg\OneDrive\Projects\Programming Workspace\Workspace(C)\Nexus\Include\Nexus.h(37): note: see reference to class template instantiation 'std::vector<Nexus::Neuron,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1011): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1011): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1013): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1013): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1014): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1014): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1028): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1028): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1029): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1029): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1033): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1033): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1034): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1034): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1048): error C3699: '*const ': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1048): note: compiler replacing '*const ' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1054): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1054): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1060): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(1060): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(905): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(905): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(969): note: see reference to class template instantiation 'std::_Default_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Nexus::Neuron>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(906): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(906): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(982): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(982): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(407): note: see reference to variable template 'const bool _Is_simple_alloc_v<std::allocator<Nexus::Neuron> >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(983): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(983): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(414): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(414): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(415): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(415): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(993): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(993): note: compiler replacing '*' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(455): note: see reference to class template instantiation 'std::_Simple_types<_Ty>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(994): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xmemory0(994): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(429): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(429): note: compiler replacing '&' with '^' to continue parsing
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xutility(303): note: see reference to class template instantiation 'std::_Vector_val<std::_Simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(638): note: see reference to class template instantiation 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' being compiled
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(430): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(430): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(439): error C3265: cannot declare a managed '_Myfirst' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(439): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(440): error C3265: cannot declare a managed '_Mylast' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(440): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(441): error C3265: cannot declare a managed '_Myend' in an unmanaged 'std::_Vector_val<std::_Simple_types<_Ty>>'
+          with
+          [
+              _Ty=Nexus::Neuron
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(441): note: may not declare a global or static variable, or a member of a native type that refers to objects in the gc heap
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(673): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(673): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(674): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(674): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(706): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(706): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(978): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(978): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(983): error C3699: '&&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(983): note: compiler replacing '&&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1061): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1061): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1066): error C3699: '&&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1066): note: compiler replacing '&&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1071): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1071): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1320): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1320): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1534): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1534): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1668): error C3699: '*': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1668): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1673): error C3699: '*': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1673): note: compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1791): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1791): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1805): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1805): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1819): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1819): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1829): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1829): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1839): error C3699: '&': cannot use this indirection on type 'Nexus::Neuron'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1839): note: compiler replacing '&' with '^' to continue parsing
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1853): error C3699: '&': cannot use this indirection on type 'const Nexus::Neuron'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\vector(1853): fatal error C1003: error count exceeds 100; stopping compilation
